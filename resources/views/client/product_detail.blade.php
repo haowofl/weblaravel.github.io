@@ -51,7 +51,7 @@
                     {{csrf_field()}}
                     <p class="value_productDetail">
                         <span class="weiht-blod">Số lương:</span>
-                        <input type="number" value="1" name="quantity">
+                        <input type="number" min= "1" value="1" name="quantity">
                         <input type="hidden" name="product_id" value="{{$product->id}}">
                     </p>
                     <p class="hiddens_productDetail margin-bottom-10"><span class="vuilongchon color-red">Vui lòng chọn size</span></p>
